@@ -1,0 +1,6 @@
+class Program {
+    int j;
+    int main() {
+        callout("printf", "5 is a prime number");
+    }
+}

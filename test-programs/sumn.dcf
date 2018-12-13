@@ -1,0 +1,14 @@
+class Program {
+    int main() {
+        int sum;
+        int i;
+        sum = 0;
+        callout("scanf","%d", n);
+        i = 0;
+        for i = 1, n+1 {
+            sum+=i;
+        }
+        callout("printf", "sum = %d\n", sum);
+        return 0;
+    }
+}

@@ -1,0 +1,7 @@
+class Program {
+    int w;
+    int j;
+    int mon() {
+        return 0;
+    }
+}

@@ -1,0 +1,23 @@
+class Program {
+    int arr[50];
+    int main() {
+        int max;
+        int i, n;
+        int min;
+        max = -1000000005;
+        min = 1000000005;
+        callout("scanf", "%d", n);
+        i = 0;
+        for i = 0, n {
+            callout("scanf", "%d", arr[i]);
+            if( arr[i] > max){
+                max = arr[i];
+            }
+            if(arr[i] < min){
+                min = arr[i];
+            }
+        }
+        callout("printf", "max = %d min = %d \n", max,min);
+        return 0;
+    }
+}

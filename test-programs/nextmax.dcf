@@ -1,0 +1,31 @@
+class Program {
+    int arr[50];
+    int main() {
+        int max;
+        int nextmax;
+        int i;
+        max = -1000000005;
+        nextmax = -1000000005;
+        callout("scanf","%d\n", n);
+        if( n < 2){
+            callout("printf", "Invalid Input");            
+        }
+        else{
+            i = 0;
+            for i = 0, n {
+                callout("scanf", "%d", arr[i]);
+                if( arr[i] > max){
+                    nextmax = max;
+                    max = arr[i];
+                }
+                else{
+                    if(arr[i] < nextmax){
+                        nextmax = arr[i];
+                    }
+                }
+            }
+            callout("printf", "Second Largest Element in the array = %d\n", nextmax);
+        }
+        return 0;
+    }
+}

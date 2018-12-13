@@ -1,0 +1,20 @@
+class Program {
+    int main() {
+        int i;
+        int flag;
+        int n;
+        callout("scanf","%d", n);
+        for i = 2 , n {
+            if(n%i == 0){
+                flag = 1;
+            }
+        }
+        if(flag == 1){
+            callout("printf", "%d is not a prime number", n);
+        }
+        else{
+            callout("printf", "%d is a prime number", n);        
+        }
+        return 0;
+    }
+}
