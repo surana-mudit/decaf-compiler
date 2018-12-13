@@ -2,7 +2,7 @@
 
 ### Structure
 
-* **Decaff_Compiler** : Directory containing the source code for the compiler.
+* **Decaf_Compiler** : Directory containing the source code for the compiler.
     * **parser.yy** : The parser for the compiler.
     * **scanner.l** : The scanner for the compiler.
     * **ast.hh** : The declaration of various classes defining the structure of the AST.
@@ -28,7 +28,7 @@
     * ./compiler AST < filepath (For getting the phase-2 output)
     * ./compiler codegen < filepath (For getting the phase-3 output)
 
-### Descriptiton
+### Description
 The file **ast.hh** defines the AST structure for the compiler. Any input which is given is first of parsed using the file parser.yy where we go on building the ast  structure on the go. Various syntactic checks are included to ensure correctness of the code.
 The file **codegen.cpp** describes how code generation should be performed on various classes.
     
